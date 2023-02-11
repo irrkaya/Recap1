@@ -25,6 +25,16 @@
 
 // alert(queryElements.length)
 
-var nameElements= document.getElementsByName("clientName")
+// var nameElements= document.getElementsByName("clientName")
 
-alert(nameElements[0].value)
+// alert(nameElements[0].value)
+
+// dom events
+var mila = document.getElementById("mila").addEventListener("mouseover",changeColor)
+
+function changeColor()
+{
+    document.getElementById("div1").style.color="red"
+    var nameElements= document.getElementsByName("clientName")
+    nameElements[0].value="Mila"
+}
