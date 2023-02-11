@@ -52,3 +52,7 @@ div1.insertBefore(heading,p2)
 
 alert("P2 Deleting...")
 div1.removeChild(p2)
+
+alert("Changing..")
+var p1 = document.getElementById("p1")
+div1.replaceChild(heading,p1)
