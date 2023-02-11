@@ -16,6 +16,11 @@
 //     alert(allItems[i].innerHTML)
 // }
 
- var classElement = document.getElementsByClassName("intro1")
+//  var classElements = document.getElementsByClassName("intro1")
 
- alert(classElement[1].innerHTML)
+//   alert(classElements[1].innerHTML)
+//   alert(classElements.length)
+
+var queryElements = document.querySelectorAll("p.intro1")
+
+alert(queryElements.length)
