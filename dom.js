@@ -21,6 +21,10 @@
 //   alert(classElements[1].innerHTML)
 //   alert(classElements.length)
 
-var queryElements = document.querySelectorAll("p.intro1")
+// var queryElements = document.querySelectorAll("p.intro1")
 
-alert(queryElements.length)
+// alert(queryElements.length)
+
+var nameElements= document.getElementsByName("clientName")
+
+alert(nameElements[0].value)
